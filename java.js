@@ -28,7 +28,7 @@ console.log("Dzis mamy " + day)
 if (day == "niedziela"){
     console.log('Wytrzezwij jutro do roboty :D')
 }else if (day == "piatek") {
-    console.log("Hura - dzis juz piatek")
+    console.log("Hura - dzis juz piatek !")
 } else if (day == "sobota"){
     console.log("Dzis mozesz sie wyspac.")
 } else {
