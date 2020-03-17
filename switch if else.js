@@ -32,6 +32,6 @@ if (day == "niedziela"){
 } else if (day == "sobota"){
     console.log("Dzis mozesz sie wyspac.")
 } else {
-    console.log("Niestety jeszcze trzeba chodzic do roboty.")
+    console.log("Niestety jeszcze trzeba chodzic do roboty..")
 }
 console.log(new Date())
