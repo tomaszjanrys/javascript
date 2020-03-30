@@ -28,7 +28,7 @@ getFunction = (countryCode, countryAndCode) => {
     for (let country of countryAndCode.keys()) {
         let code = countryAndCode.get(country)
         if (countryCode.has(code)) {
-            let codeId = 0
+            let codeId = 1
             for (c of countryCode) {
                 if (c == code) {
                     results.set(country, codeId)
